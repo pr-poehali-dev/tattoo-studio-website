@@ -20,25 +20,22 @@ const ContactInfo: React.FC<ContactInfoProps> = ({ className }) => {
           title="Адрес"
           content="г. Белгород, ул. Князя Трубецкого, 25"
         />
-
+        // ... keep existing code below
         <ContactItem
           icon="Phone"
           title="Телефон"
           content="+7 (999) 123-45-67"
         />
-
         <ContactItem
           icon="Mail"
           title="Email"
           content="info@chernilnyystyle.ru"
         />
-
         <ContactItem
           icon="Clock"
           title="Режим работы"
           content="Пн-Вс: 10:00 - 22:00"
         />
-
         <div>
           <h4 className="font-medium text-white mb-3">Социальные сети</h4>
           <div className="flex space-x-4">
